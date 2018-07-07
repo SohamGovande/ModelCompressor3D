@@ -9,7 +9,7 @@ Run the executable provided in the [Releases](https://github.com/Matrix4f/3D-Mod
 
 Example:
 
-[Example](Example.png)
+![Example](Example.png)
 
 **Inspiration**
 
