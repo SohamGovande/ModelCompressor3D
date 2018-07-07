@@ -18,6 +18,10 @@ Then, it requests the user whether they desire to simplify mesh vertices using a
 
 Lastly, the file is saved in a binary file with the ".dat" extension (dat is an abberviation of the word data).
 
+**Dependencies:**
+
+This utility uses my [Binary-IO api](https://github.com/Matrix4f/Binary-IO) in a folder named BinIO, as well as the [glm](https://glm.g-truc.net/) API for vectors.
+
 **How do I parse a model that I've converted using this utility?**
 
 Use the following method:
