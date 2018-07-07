@@ -35,8 +35,6 @@ This utility uses my [Binary-IO API](https://github.com/Matrix4f/Binary-IO) in a
 
 **How do I parse a model that I've converted using this utility?**
 
-First
-
 ```cpp
 
 template<typename T>
