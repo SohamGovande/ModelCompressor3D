@@ -1,5 +1,16 @@
 # 3D Model File Format
 
+**How to use:**
+
+Run the executable provided in the [Releases](https://github.com/Matrix4f/3D-Model-File-Format/releases) page.
+  1. Enter the filepath of the model (excluding the .obj extension)
+  2. Enter how aggressive you want the inbuilt edge collapse mesh simplification to be. (0 means no mesh simplification, any other numbers signal the number of edges you wish to remove)
+  3. Enter the output path of the file, where the model will be exported to (excluding the .dat extension, which is automatically appended to the end of the filepath)
+
+Example:
+
+[Example](Example.png)
+
 **Inspiration**
 
 When working with OpenGL and C++ to render 3D models onto a window, I realized that common file formats such as the Wavefront OBJ format and the COLLADA format, lack one thing: speed.
@@ -24,7 +35,7 @@ This utility uses my [Binary-IO API](https://github.com/Matrix4f/Binary-IO) in a
 
 **How do I parse a model that I've converted using this utility?**
 
-Use the following method:
+First
 
 ```cpp
 
