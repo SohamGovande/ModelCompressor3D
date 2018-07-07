@@ -10,7 +10,9 @@ If only there were a way to minimize model loading speed, all the while being ab
 
 **How does this work?**
 
-The 3d model format utility first loads an OBJ exported with these settings: [insert image here]
+The 3d model format utility first loads an OBJ exported with these settings:
+
+![OBJSettings](ObjExportSettings.png)
 
 Then, it requests the user whether they desire to simplify mesh vertices using an edge-collapse algorithm. This mesh simplification seeks to reduce vertex count, improve rendering times, and lower file size.
 
