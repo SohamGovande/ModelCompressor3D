@@ -20,7 +20,7 @@ Lastly, the file is saved in a binary file with the ".dat" extension (dat is an 
 
 **Dependencies:**
 
-This utility uses my [Binary-IO api](https://github.com/Matrix4f/Binary-IO) in a folder named BinIO, as well as the [glm](https://glm.g-truc.net/) API for vectors.
+This utility uses my [Binary-IO API](https://github.com/Matrix4f/Binary-IO) in a folder named BinIO, as well as the [glm](https://glm.g-truc.net/) API for vectors.
 
 **How do I parse a model that I've converted using this utility?**
 
